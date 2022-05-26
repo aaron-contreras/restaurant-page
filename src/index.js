@@ -1,13 +1,5 @@
 console.log('🌊');
 
-<<<<<<< HEAD
-import { render } from "./components/homepage";
-
-const wrapper = document.querySelector('#content');
-
-wrapper.append(
-  render()
-=======
 import { render as renderHomePage } from "./components/homepage";
 import { render as renderContactPage } from "./components/contact";
 import { render as renderMenuPage } from "./components/menu";
@@ -67,5 +59,4 @@ wrapper.append(navigationBar);
 // First-time load
 wrapper.append(
   renderHomePage()
->>>>>>> no-tkt-add-tab-switching-logic
 );
